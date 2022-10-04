@@ -1,4 +1,6 @@
-def function(a=input("Please, input a: "), b=input("Please, input b: ")):
+def function():
+    a = input("Please, input a: ")
+    b = input("Please, input b: ")
     try:
         a, b = int(a), int(b)
         return a**2/b
