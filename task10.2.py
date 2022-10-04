@@ -1,6 +1,8 @@
-def function():
-    a = input("Please, input a: ")
-    b = input("Please, input b: ")
+a = input("Please, input a: ")
+b = input("Please, input b: ")
+
+
+def function(a, b):
     try:
         a, b = int(a), int(b)
         return a**2/b
@@ -10,6 +12,7 @@ def function():
         return "You can only use numbers"
 
 
-print(function())
+print(function(a, b))
+
 
 
